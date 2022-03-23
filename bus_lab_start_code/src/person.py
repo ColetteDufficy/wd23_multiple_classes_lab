@@ -3,5 +3,3 @@ class Person:
         self.name = name
         self.age = age
         
-    def num_of_passengers(self):
-        return len(self.passengers)

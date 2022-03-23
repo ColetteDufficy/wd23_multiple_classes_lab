@@ -9,10 +9,7 @@ class BusStop:
     def add_to_queue(self, person):
         self.queue.append(person)
         
-        
-    # def empty(self):
-    #     self.queue.clear()
-        
-    
-
+    def clear(self):
+        self.queue.clear()
+        return len(self.queue)
         
